@@ -1,0 +1,372 @@
+head{
+font: inherit;
+font-size: 16px;
+}
+
+header .desktop {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+header .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style: none;
+}
+header .mobile {
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#banner {
+    background-color: rgb(219, 219, 219);
+}
+.flex-content {
+    display: flex;
+    padding: 0 1.5rem;
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+#banner .main-content {
+    border-right: none;
+}
+.flex-content .main-content {
+    width: 60%;
+    padding: 2rem 1.5rem 2rem 0;
+    border-right: 1px solid rgb(245, 245, 245);
+}
+.media-container {
+    overflow: hidden;
+}
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    display: block;
+}
+.media-container img, .media-container video {
+    display: block;
+    width: 100%;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#banner .supporting-content {
+    justify-content: center;
+}
+.flex-content .supporting-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem 0;
+}
+div{
+
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+#banner h3 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+h3 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#banner p {
+    padding-bottom: 1.5rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#banner a {
+    padding: .5rem 0;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a:-webkit-any-link {
+    
+    cursor: pointer;
+}
+#banner .supporting-content {
+    justify-content: center;
+}
+.flex-content .supporting-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem 0;
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+#banner h3 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+h3 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#banner p {
+    padding-bottom: 1.5rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#banner a {
+    padding: .5rem 0;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.content-image-box .media-container {
+    width: 35%;
+}
+.media-container {
+    overflow: hidden;
+}
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+}
+.content-image-box .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 0.75rem 0 1rem;
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.content-image-box h4 {
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.content-image-box p {
+    padding-bottom: .5rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.content-image-box .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 0.75rem 0 1rem;
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.content-image-box:first-child {
+    padding-top: 0;
+}
+.content-image-box {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.content-image-box .media-container {
+    width: 35%;
+}
+.media-container {
+    overflow: hidden;
+}
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+.media-container {
+    overflow: hidden;
+}
+.media-container img, .media-container video {
+    display: block;
+    width: 100%;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.content-image-box .mobile {
+    display: none;
+}
+.media-container img, .media-container video {
+    width: 100%;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.content-image-box .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 0.75rem 0 1rem;
+}
+div{
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
